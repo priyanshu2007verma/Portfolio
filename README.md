@@ -4,7 +4,7 @@ An interactive portfolio showcasing my journey as an **AI Developer**, **Full St
 
 ## 🌐 Live Demo
 
-**Portfolio:** *(Add your Vercel URL here)*
+**Portfolio:** *https://portfolio-qn36.vercel.app*
 
 ## 🤖 Featured Project
 
@@ -111,21 +111,9 @@ http://localhost:3000
 
 ---
 
-# 📸 Screenshots
-
-Add screenshots of:
-
-* Hero Section
-* Auron OS
-* Startup Judge Showcase
-* Skills Section
-* Mobile View
-
----
-
 # 📬 Connect With Me
 
-**LinkedIn:** *(Add your LinkedIn URL)*
+**LinkedIn:** *www.linkedin.com/in/priyanshu-verma-854774404*
 
 **GitHub:** https://github.com/priyanshu2007verma
 
