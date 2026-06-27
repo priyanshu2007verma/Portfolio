@@ -1,3 +1,25 @@
+export interface Project {
+  id: number;
+  featured: boolean;
+
+  title: string;
+  tagline: string;
+  image: string;
+  description: string;
+
+  technologies: string[];
+
+  github: string;
+  live: string;
+
+  stats?: {
+    features: string;
+    category: string;
+    year: string;
+  };
+
+  highlights?: string[];
+}
 export const hero = {}
 export const about = {}
 export const skills = [
@@ -139,7 +161,7 @@ export const skills = [
   },
 ];
 
-export const projects = [
+export const projects: Project[] = [
   {
     id: 1,
     featured: true,
@@ -308,7 +330,7 @@ export const contact = {
 
   github: "https://github.com/priyanshu2007verma",
 
-  linkedin: "https://linkedin.com/in/YOUR_USERNAME",
+  linkedin: "www.linkedin.com/in/priyanshu-verma-854774404",
 
-  resume: "#"
+  resume: "/resume.pdf"
 };

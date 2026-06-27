@@ -7,19 +7,26 @@ import ProjectCTA from "./ProjectCTA";
 
 interface FeaturedProjectProps {
   project: {
+    id: number;
+    featured: boolean;
+
     title: string;
     tagline: string;
-    description: string;
     image: string;
+    description: string;
+
     technologies: string[];
+
     github: string;
     live: string;
-    stats: {
+
+    stats?: {
       features: string;
       category: string;
       year: string;
     };
-    highlights: string[];
+
+    highlights?: string[];
   };
 }
 
@@ -98,7 +105,7 @@ export default function FeaturedProject({
               </p>
 
               <h3 className="mt-2 text-2xl font-bold text-violet-400 sm:text-3xl lg:text-4xl">
-                {project.stats.features}
+                {project.stats?.features}
               </h3>
 
             </div>
@@ -110,7 +117,7 @@ export default function FeaturedProject({
               </p>
 
               <h3 className="mt-2 text-lg font-bold text-violet-400 sm:text-2xl lg:text-3xl">
-                {project.stats.category}
+                {project.stats?.category}
               </h3>
 
             </div>
@@ -122,7 +129,7 @@ export default function FeaturedProject({
               </p>
 
               <h3 className="mt-2 text-2xl font-bold text-violet-400 sm:text-3xl lg:text-4xl">
-                {project.stats.year}
+                {project.stats?.year}
               </h3>
 
             </div>
@@ -139,7 +146,7 @@ export default function FeaturedProject({
 
             <div className="grid grid-cols-1 gap-3 sm:grid-cols-2">
 
-              {project.highlights.map((item) => (
+              {project.highlights?.map((item) => (
 
                 <div
                   key={item}

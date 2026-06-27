@@ -4,7 +4,11 @@ import FeaturedProject from "./FeaturedProject";
 import ProjectCard from "./ProjectCard";
 
 export default function Projects() {
-  const featured = projects.find((project) => project.featured)!;
+  const featured = projects.find(
+  (project) => project.featured
+);
+
+if (!featured) return null;
 
   const others = projects.filter(
     (project) => !project.featured
