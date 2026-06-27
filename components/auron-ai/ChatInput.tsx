@@ -18,7 +18,7 @@ export default function ChatInput({ onSend }: Props) {
   }
 
   return (
-    <div className="border-t border-white/10 p-4">
+    <div>
 
       <div className="flex gap-3">
 

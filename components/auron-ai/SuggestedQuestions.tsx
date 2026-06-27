@@ -15,7 +15,7 @@ export default function SuggestedQuestions({
   onSelect,
 }: Props) {
   return (
-    <div className="mb-4 flex flex-wrap gap-2">
+    <div className="mb-3 flex flex-wrap gap-2 overflow-x-auto pb-1">
 
       {questions.map((question) => (
 
