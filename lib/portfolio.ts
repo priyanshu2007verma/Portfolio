@@ -248,9 +248,9 @@ export const projects: Project[] = [
       "Tailwind",
     ],
 
-    github: "#",
+    github: "https://github.com/priyanshu2007verma/Portfolio",
 
-    live: "#",
+    live: "https://portfolio-qn36.vercel.app/",
   },
 ];
 
